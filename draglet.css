@@ -50,8 +50,9 @@
 #dragletContainer input {
   padding: 10px !important;
   margin: 0 0 30px 0 !important;
-  width: 560px !important;
+  width: 540px !important;
   background: #eee !important;
+  border: none !important;
   font-size: 24px !important;
   color: #444 !important;
 }

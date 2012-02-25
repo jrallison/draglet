@@ -19,8 +19,15 @@
   });
 
   /* Drag'n drop stuff */
-  window.ondragover = function(e) {e.preventDefault()};
-  window.ondrop = function(e) {e.preventDefault(); upload(e.dataTransfer.files[0]); };
+  $('#dragletContainer').on({
+    dragover: function(e) {
+      e.preventDefault();
+    },
+    drop: function(e) {
+      e.preventDefault();
+      upload(e.originalEvent.dataTransfer.files[0]);
+    }
+  });
 
   function upload(file) {
     /* Is the file an image? */

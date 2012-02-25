@@ -14,6 +14,10 @@
     $('#dragletOverlay,#dragletContainer').remove();
   });
 
+  $(window).on('keyup', function(e) {
+    if (e.keyCode == 27) { $('#dragletOverlay,#dragletContainer').remove(); }
+  });
+
   /* Drag'n drop stuff */
   window.ondragover = function(e) {e.preventDefault()};
   window.ondrop = function(e) {e.preventDefault(); upload(e.dataTransfer.files[0]); };

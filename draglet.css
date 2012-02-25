@@ -1,0 +1,57 @@
+#dragletOverlay {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  opacity: .6;
+}
+
+#dragletContainer {
+  font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  position: fixed;
+  z-index: 100000002;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -300px;
+  padding: 20px;
+  width: 560px;
+  height: 260px;
+  background-color: #222;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+#dragletContainer h1 {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #333 !important;
+  font-size: 40px !important;
+  line-height: 260px !important;
+  font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  text-transform: uppercase !important;
+  text-align: center !important;
+}
+
+#dragletContainer label {
+  display: block !important;
+  margin: 5px 0 0 !important;
+  padding: 0 !important;
+  color: #333 !important;
+  font-size: 30px !important;
+  line-height: 1.3em !important;
+  font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  text-transform: uppercase !important;
+  text-align: left !important;
+}
+
+#dragletContainer input {
+  padding: 10px !important;
+  margin: 0 0 30px 0 !important;
+  width: 560px !important;
+  background: #eee !important;
+  font-size: 24px !important;
+  color: #444 !important;
+}

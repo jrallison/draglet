@@ -59,7 +59,7 @@
 
   function showDragletUrl($, url) {
     $('#dragletContainer').html('<label for=\'dragletUrl\'>URL</label><input id=\'dragletUrl\' type=\'text\' value=\'' + url + '\' />');
-    $('#dragletContainer').append('<label for=\'dragletMarkdown\'>Markdown</label><input id=\'dragletMarkdown\' type=\'text\' value=\'![my image](' + url + ')\' />');
+    $('#dragletContainer').append('<label for=\'dragletMarkdown\'>Markdown</label><input id=\'dragletMarkdown\' type=\'text\' value=\'[![my image](' + url + ')](' + url + ')\' />');
   }
 
   // Load jquery 1.7.1 if it isn't already loaded

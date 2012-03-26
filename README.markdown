@@ -8,4 +8,4 @@
 
 * Drag an image, it'll upload it to [imgur.com](http://imgur.com), and give you links to copy/paste into the github issue (or whichever site you're using)
 
-![copy image url](http://i.imgur.com/YlCpU.jpg)
+![copy image url](http://i.imgur.com/PywjR.png)
